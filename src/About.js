@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class Comment extends Component {
+class Author extends Component {
   render () {
     return (
       <div>
-        <p>{this.props.body}</p>
+        <p>Written by {this.props.author}</p>
       </div>
     )
   }
 }
 
-export default Comment;
+export default Author;
